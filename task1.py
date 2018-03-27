@@ -1,10 +1,7 @@
-import numpy as np
-print('Введите значение длины цилиндра L')
+print('Height oa a Cylinder H')
 L = int(input())
-print('Введите значение радиуса цилиндра R')
+print('Radius of a Cylinder R')
 R = int(input())
 V = 3.14 * R * R * L
-print('Объём цилиндра равен', V)
-
-
+print('Volume of a Cylinder', V)
 
