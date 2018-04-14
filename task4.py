@@ -25,7 +25,7 @@ print(stop)
 start = timeit.default_timer()
 Ainv = scipy.linalg.inv(A)
 for t in np.linspace(0,10,100):
-	x3 = np.dot(A,b(k,t))
+	x3 = np.dot(Ainv,b(k,t))
 	#print (x3)
 stop = timeit.default_timer()-start
 print(stop)

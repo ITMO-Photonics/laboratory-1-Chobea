@@ -15,14 +15,14 @@ stop = timeit.default_timer()-start
 print (root1)
 print(stop)
 
-print('Newton-Raphson method')
+print('Secant method')
 start = timeit.default_timer()
 root2 = optimize.newton(f,1.5)
 stop = timeit.default_timer()-start
 print (root2)
 print(stop)
 
-print('Secant method')
+print('Newton-Raphson method')
 start = timeit.default_timer()
 root3 = optimize.newton(f,1.5,fprime)
 stop = timeit.default_timer()-start
